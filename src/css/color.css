@@ -1,0 +1,17 @@
+:root{
+    --rojo:#E50914;
+    --fondo:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--fondo);
+     font-family: worker, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    
