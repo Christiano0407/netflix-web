@@ -1,0 +1,20 @@
+@media screen and (max-width:800px){
+header.logotipo{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+header .contenedor {
+    flex-direction: column;
+    text-align: center;
+}
+.pelicula-principal{
+    font-size: 14px;
+}
+.pelicula-principal .descripcion{
+    max-width: 100%;
+
+}
+.pelicula-principal .boton{
+    margin-top: 5px;
+}
+}
