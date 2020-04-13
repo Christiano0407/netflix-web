@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+ border: 1px solid blue ;
+}
+.container:hover .cuadrado{
+    transform: rotate(45deg);
+} 
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: red;
+    transition: .3s
+  /*  transform: rotate(45deg); */
+}
+/* transform: rotate3d(X / Y / Z / rotate()) */
