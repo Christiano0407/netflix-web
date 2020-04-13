@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.canasta{
+    border: 1px solid red;
+    position: relative;
+    height: 200px;
+    width: 100vh;
+   /*  transform: rotar | sesgar | posición | tamaño; */
+      /*  rotate()| skew() | translate() | scale()  */
+    transform: rotate(45deg) scale(.3);
+}
+.canasta:hover .pelota {
+    width: 100px;
+    height: 100px;
+}
+.canasta:hover .pelota.a{
+    left: calc(50% - 100px);
+}
+.canasta:hover .pelota.b{
+    right: calc(50% - 100px);
+}
+.pelota{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   /* background-color: aqua;  */
+   /*  transition-property: width, height;
+    transition-duration: 1s; */
+   /*  transition-delay: 1s; */
+   /*  transition-timing-function:ease-in-out; */
+   transition: 1s ease-out;
+   position: absolute;
+}
+/* .pelota:hover { */
+    /* width: 200px;
+    height: 200px; */
+  /*   border-radius: 50%; */
+    /* background-color: aqua;  */
+/* } */
+.pelota.a{
+    background: green;
+    left: 0 ;
+}
+.pelota.b{
+   background: hotpink;
+   right: 0;
+}
+
+/* @keyframes  */
