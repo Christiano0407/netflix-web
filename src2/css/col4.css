@@ -17,6 +17,10 @@ body {
    /*  background: red; */
     position: relative;
     transform: rotate(45deg);
+
+    animation-name: platzi-base;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .platzi-left {
     width: 80%;
@@ -25,6 +29,10 @@ body {
     border-bottom: none;
     top: 1px;
     border-radius: 20px 20px 0 0;
+
+    animation-name: platzi-left;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 .platzi-right{
     width: 100%;
