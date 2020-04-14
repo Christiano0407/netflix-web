@@ -8,12 +8,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    perspective: 200px;
+    perspective-origin: center; 
+   /*    perspective-origin: left; */
+    /* perspective-origin: bottom; */
+    /* perspective-origin: 100vh;  */
+ /*    perspective-origin: bottom left; */
 }
 .container{
  border: 1px solid blue ;
 }
 .container:hover .cuadrado{
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
+  /*   transform: translateX(200px); */
+/*   transform: translateY(-200px); */
+  /*    transform: translateZ(50px); */
+      /*  transform: translate3d(100px, 100px, 100px); */
+      transform: translate(200px);
 } 
 .cuadrado{
     width: 200px;
@@ -21,6 +32,6 @@ body {
     margin: 20px;
     background: red;
     transition: .3s
-  /*  transform: rotate(45deg); */
+  /*  transform: rotate(45deg); */   
 }
 /* transform: rotate3d(X / Y / Z / rotate()) */
