@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #234050;
+}
+.platzi {
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+   /*  background: red; */
+    position: relative;
+    transform: rotate(45deg);
+}
+.platzi-left {
+    width: 80%;
+    height: 65%;
+    border: 20px solid #97c93d;
+    border-bottom: none;
+    top: 1px;
+    border-radius: 20px 20px 0 0;
+}
+.platzi-right{
+    width: 100%;
+    right: 35%;
+    border: 20px solid #97c93d;
+    border-radius: 0  0 20px 20px;
+    border-top: none;
+}
