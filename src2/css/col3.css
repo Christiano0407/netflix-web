@@ -6,7 +6,7 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
     /* perspective: 200px; 
      perspective-origin: center;    */
@@ -44,9 +44,9 @@ body {
     border-radius: 50%;
     /* transition: .3s */
   /*  transform: rotate(45deg); */   
-  animation-name: cuadrado, rebote;
+  animation-name: cuadrado, rebote /*  escalera */;
   animation-duration: 2s, .3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite, 20;
   animation-direction: alternate;
  /*  animation-timing-function: ease-in-out;
   animation-timing-function: steps(60); */
@@ -96,6 +96,14 @@ body {
     to {
       transform: translateY(100px) scale(1,.8);
     }
+}
+@keyframes escalera {
+  from {
+   transform: translateY(0);
+  }
+  to {
+   transform: translateY(500px);
+  }
 }
 
 /* @keyframes stretch {
