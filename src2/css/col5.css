@@ -5,15 +5,41 @@
 }
 body {
     display: flex;
-    align-items: center;
-    justify-content: center;
+   /*  align-items: center;
+    justify-content: center; */
     background: rgb(172, 171, 171);
-    height: 100vh;
+
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+  /*   height: 100vh; */
 }
-.cuadrado{
+/* body img {
+    width: 100%;
+} */
+/* .cuadrado{
     width: 200px;
     height: 200px;
-    background-color: aqua;
+    background-color: aqua; */
     /* animation: animationIn 1s; */
-    animation: animationOut 1s forwards;
+    /* animation: animationOut 1s forwards; */
+/* } */
+.overlay{
+background: rgba(0,0,0,.4);
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.modal {
+    background-color:#fff;
+    width: 500px;
+   /*  height: 500px; */
+    animation: animationIn 1s forwards;
+    padding: 2em;
+    border-radius: .5em;
+    
 }

@@ -32,7 +32,7 @@
    }
 }
 
-/* @keyframes animationIn{
+@keyframes animationIn{
   from {
   transform: translateY(-3000px);
   }
@@ -52,8 +52,8 @@
   to {
   transform: translateY(0px);
   }
-} */
-@keyframes animationOut {
+} 
+/* @keyframes animationOut {
 from {
  transform: translateY(0px);
 }
@@ -66,4 +66,4 @@ from {
 to {
 transform: translateY(-3000px);
 }
-}
+} */
