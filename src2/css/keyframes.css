@@ -67,3 +67,20 @@ to {
 transform: translateY(-3000px);
 }
 } 
+@keyframes error {
+  from {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(.5);
+  }
+  to {
+    transform: scale(0);
+  }
+}

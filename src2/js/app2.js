@@ -1,5 +1,6 @@
 const $hideButton = document.getElementById(`hide-modal`);
 const $errorButton = document.getElementById(`error-modal`);
+/* const $error = document.getElementById(`error`); */
 const $modal = document.getElementById(`modal`);
 const $overlay = document.getElementById(`overlay`);
 
@@ -9,7 +10,7 @@ $hideButton.addEventListener (`click`, (event) => {
     $overlay.classList.remove(`active`)
 });
 
-$errorButton.addEventListener(`click`, (event) => {
-    $modal.style.animation = `modalIn .8s forward`;
-    $overlay.classList.add(`active`);
-})
+/* $errorButton.addEventListener(`click`, (event) => {
+    $error.style.animation = `error .8s forward`;
+    $overlay.classList.remove(`active`);
+}) */
