@@ -14,5 +14,6 @@ body {
     width: 200px;
     height: 200px;
     background-color: aqua;
-    animation: animationIn 2s;
+    /* animation: animationIn 1s; */
+    animation: animationOut 1s forwards;
 }
