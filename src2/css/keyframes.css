@@ -1,0 +1,42 @@
+@keyframes platzi-base{
+    from {
+     opacity: 0;
+     transform: scale(.2) rotate(0deg);
+    }
+    30% {
+        opacity: 1;
+        transform: scale(.8) rotate(405deg);
+    }
+    80% {
+        opacity: 1;
+        transform:scale(.8) rotate(405deg);
+    }
+    to {
+     opacity: 0;
+     transform: scale(.2) rotate(0deg);
+    }
+}
+
+@keyframes platzi-left {
+   0% {
+     width: 100%;
+   }
+   30% {
+     width: 80%;
+   }
+   80%{
+     width: 80%;
+   }
+   100%{
+    width: 100%;
+   }
+}
+
+@keyframes animationIn{
+  from {
+  transform: translateY(-3000px);
+  }
+  to {
+  transform: translateY(0px);
+  }
+}
