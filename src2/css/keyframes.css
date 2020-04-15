@@ -1,4 +1,4 @@
-@keyframes platzi-base{
+/* @keyframes platzi-base{
     from {
      opacity: 0;
      transform: scale(.2) rotate(0deg);
@@ -30,9 +30,9 @@
    100%{
     width: 100%;
    }
-}
+} */
 
-@keyframes animationIn{
+@keyframes modalIn{
   from {
   transform: translateY(-3000px);
   }
@@ -53,7 +53,7 @@
   transform: translateY(0px);
   }
 } 
-/* @keyframes animationOut {
+@keyframes modalOut {
 from {
  transform: translateY(0px);
 }
@@ -66,4 +66,4 @@ from {
 to {
 transform: translateY(-3000px);
 }
-} */
+} 
