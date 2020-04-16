@@ -10,11 +10,29 @@ header .contenedor {
 .pelicula-principal{
     font-size: 14px;
 }
+.pelicula-principal .boton{
+    margin-top: 5px;
+}
 .pelicula-principal .descripcion{
     max-width: 100%;
 
 }
-.pelicula-principal .boton{
-    margin-top: 5px;
+.peliculas-recomendadas .contenedor-carousel {
+    overflow: visible;
 }
+.peliculas-recomendadas .contenedor-carousel .carousel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.peliculas-recomendadas .indicadores {
+    display: none;
+}
+.peliculas-recomendadas .indicadores,
+.peliculas-recomendadas .flecha-izq,
+.peliculas-recomendadas .flecha-der {
+    display: none;
+}
+
+
 }

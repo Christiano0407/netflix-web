@@ -160,9 +160,13 @@ transition: .2s ease all;
     flex-wrap: nowrap;
 }
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
-width: 20%;
+min-width: 20%;
 transition: .3 ease;
 box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula:hover {
+transform: scale(1.5);
+transform-origin: center;
 }
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula  img {
     width: 100%;
