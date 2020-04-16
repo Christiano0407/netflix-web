@@ -4,5 +4,22 @@
     box-sizing: border-box;
 }
 body {
-    
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.like {
+    width: 100px;
+    height: 100px;
+    background-image:url(../images/corazon_b33c879a-0926-4897-a92f-495f0a44018c.png);
+    cursor: pointer;
+   
+}
+ .like.is-like {
+    animation-name:like;
+    animation-duration:.8s;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+} 
