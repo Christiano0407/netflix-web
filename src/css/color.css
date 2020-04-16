@@ -152,7 +152,8 @@ transition: .2s ease all;
 .peliculas-recomendadas .contenedor-carousel {
     width: 100%;
     padding: 20px 0;
-    overflow: hidden;
+   /*  overflow: scroll; */
+   overflow: hidden;
     scroll-behavior: smooth;
 }
 .peliculas-recomendadas .contenedor-carousel .carousel{
