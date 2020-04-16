@@ -98,7 +98,7 @@ align-items: end;
 }
 .contenedor-titulo-controles h3 {
 color: #fff;
-font-size: 30px;
+font-size: 20px;
 }
 .contenedor-titulo-controles .indicadores button {
  background: #fff;
@@ -109,7 +109,7 @@ font-size: 30px;
  margin-right: 2px;
 }
 .contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.active {
+.contenedor-titulo-controles .indicadores button.activo {
     background: red;
 }
 /* carousel/contenedor */
@@ -147,4 +147,27 @@ transition: .2s ease all;
 }
 .peliculas-recomendadas .contenedor-principal .flecha-der {
     right: 0;
+}
+/* carousel */
+.peliculas-recomendadas .contenedor-carousel {
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.peliculas-recomendadas .contenedor-carousel .carousel{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+width: 20%;
+transition: .3 ease;
+box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula  img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
 }
