@@ -1,0 +1,8 @@
+@keyframes waves {
+    from {
+    transform: translateX(0) translateY(0);
+    }
+    to {
+    transform: translateX(200px) translateY(100px);
+    }
+}
