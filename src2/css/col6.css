@@ -11,11 +11,13 @@ body {
     align-items: center;
 }
 .like {
-    width: 100px;
-    height: 100px;
+   /*  width: 100px;
+    height: 100px; */
+    width: 50px;
+    height: 50px;
     background-image:url(../images/corazon_b33c879a-0926-4897-a92f-495f0a44018c.png);
     cursor: pointer;
-   
+   background-size: 1450px 50px;
 }
  .like.is-like {
     animation-name:like;
