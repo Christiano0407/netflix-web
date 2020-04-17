@@ -6,10 +6,21 @@
 body {
     margin: 0;
 }
+.waves{
+    position: absolute;
+/*     height: 200px; */
+   /*  left: 0;
+    right: 0;
+    bottom: 0; */
+    bottom: -135px;
+    height: 527px;
+    width: 100%;
+    overflow: hidden;
+}
 .container {
-    /* position: absolute; */
+   /*  position: absolute;  */
     height: 500px;
-    background: rgb(39, 137, 248);
+    background: rgb(16, 127, 253);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,21 +39,26 @@ p {
     text-align: center;
     color: rgba(255, 255, 255, 0.815);
 }
-.circulo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: rgba(110, 216, 248, 0.726);
+.waves {
+    width: 2402px; 
+    height: 427px;
+  /*   border-radius: 50%; */
+/*   background-image: url(../images/waves_a7882071-585c-4d14-9a97-199e4eee9048.png); */
+    background:url(../images/waves_a7882071-585c-4d14-9a97-199e4eee9048.png) center bottom no-repeat;
     position: absolute;
-    animation: waves 5s infinite alternate;
-   
+    animation: waves 5s ease-in-out infinite alternate;
    /*  animation-name: waves;
     animation-duration: 1s;
     animation-iteration-count: infinite ; */
 }
- .circulo.b {
-    animation-delay: 1s;
+.waves.a {
+    background-position: 0 -854px;
 }
-.circulo.c {
-    animation-delay: 2s;
+ .waves.b {
+    animation-delay: .6s;
+    background-position: 0 -427px;
+}
+.waves.c {
+    animation-delay: 1s;
+    background-position: 0 0;
 } 

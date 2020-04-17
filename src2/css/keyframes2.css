@@ -1,8 +1,14 @@
 @keyframes waves {
     from {
-    transform: translateX(0) translateY(0);
+    transform: translate(0, 0)
     }
+    50% {
+        transform: translate(-80px, 10px);
+    }
+   75% {
+        transform: translate(10px, -60px);
+    } 
     to {
-    transform: translateX(200px) translateY(100px);
+    transform: translateX(-80px) translateY(-10px);
     }
 }
