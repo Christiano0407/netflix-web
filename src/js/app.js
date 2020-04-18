@@ -4,11 +4,24 @@ const pelicula = document.querySelectorAll(`.pelicula`);
 const flechaIzquierda = document.getElementById(`flecha-izq`);
 const flechaDerecha = document.getElementById(`flecha-der`);
 
+/* flechas */
 flechaDerecha.addEventListener(`click`, () => {
  fila.scrollLeft += fila.offsetWidth;
+
+ const indicadorActivo = document.querySelector(`.indicadores .activo`);
+ if(indicadorActivo.nextSibling){
+  indicadorActivo.nextSibling.classList.add(`activo`);
+  indicadorActivo.classList.remove(`activo`);
+ }
 });
 flechaIzquierda.addEventListener(`click`, () => {
     fila .scrollLeft -= fila.offsetWidth;
+
+    const indicadorActivo = document.querySelector(`.indicadores .activo`);
+    if(indicadorActivo.previousSibling){
+     indicadorActivo.previousSibling.classList.add(`activo`);
+     indicadorActivo.classList.remove(`activo`);
+    }
 })
 
 /* paginación */
@@ -28,3 +41,16 @@ for(let i = 0; i < numeroPagina; i++){
   /*   target=click que estamos dando */
     })
 }
+/* hover  */
+peliculas.forEach((pelicula) => {
+    pelicula.addEventListener(`mouseenter`, (e) => {
+        const elemento = e.currentTarget; /* objetivo */
+        setTimeout(() => {
+            peliculas.forEach(pelicula => pelicula.classList.remove(`hover`));
+            elemento.classList.add(`hover`);
+        }, 300);
+    });
+});
+fila.addEventListener(`mouseLeave`, () => {
+    peliculas.forEach(pelicula => pelicula.classList.remove(`hover`));
+})
