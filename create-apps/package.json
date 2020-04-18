@@ -1,5 +1,15 @@
 {
-  "name": "create-apps",
+  "name": "web",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "description": "Proyect-react-app",
+  "main": "netflix-web/netflix-web/create-apps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"web\""
+  ],
+  "author": "Christian Velázquez",
+  "license": "MIT"
 }
