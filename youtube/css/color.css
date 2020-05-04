@@ -18,7 +18,7 @@ a{
     grid-template-columns: minmax(90px, 90px)auto;
     grid-template-rows: 60px auto;
     grid-template-areas: "header header"
-                          "menu container";
+                          "menu  container";
     transition: all .3s ease;                      
 }
 .container .active{
@@ -60,11 +60,11 @@ header */
     top: -4px;
     margin-right: 4px;
 }
-.header .container-logo .logo {
+.header .container-logo .fas .logo {
     grid-area: search;
-    display: flex;
+     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 .header .search {
     grid-area: search;
@@ -122,4 +122,57 @@ header */
     vertical-align: top;
     width: 100%;
     display: inline-block;
+}
+
+/* menu-latera */ 
+.menu-lateral {
+    grid-area: menu;
+    background: #fff;
+    overflow: hidden;
+}
+.menu-lateral a {
+    display: block;
+    padding: 15px 35px;
+    color: #000;
+    min-width: 800px;
+}
+.menu-lateral a:hover{
+    background: #e5e5e5;
+}
+.menu-lateral a.active {
+    background: #e5e5e5;
+    font-weight: bold;
+}
+.menu-lateral .fas {
+    color: #606060;
+    margin-right: 32px;
+    width: 20px;
+    text-align: center;
+}
+.menu-lateral a.active .fas {
+    color: #ff0000;
+}
+.menu-lateral hr {
+    margin: 20px 0;
+    border: 1px solid #dfdfdf;
+}
+.main {
+    grid-area: container;
+    background: #f9f9f9;
+    padding: 40px;
+}
+.main .title {
+    margin-bottom: 20px;
+}
+.main .grid-videos {
+    display: grid;
+    grid-gap:40px 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.main .grid-videos .video {
+    width: 100%;
+    display: block;
+}
+.main .grid-videos .video img {
+    width: 100%;
 }
