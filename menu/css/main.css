@@ -15,8 +15,46 @@ body {
     width: 50%;
     max-width: 500px;
 }
+.container-list {
+    background: #F3F5FA;
+    box-shadow: 0px 0px 20px rgba(149, 153, 159, .10);
+}
+.container-list h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+}
+.list {
+    padding: 40px;
+    width: 100%;
+}
+.list .person {
+    background: #fff;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.list .label {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #5173CF;
+}
 
-.person img {
+.list .dato {
+    font-weight: bold;
+    font-size: 20px;
+}
+.list .person img {
     width: 70px;
     border-radius: 100%;
     margin-right: 40px;
