@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #2d2254;
+    --secondary--color:#f5c42f;
+    --text-color: #c5bbec;
+}
+
+body {
+    font-family: arpona, serif;
+    font-weight: 500;
+    font-style: normal;
+    background: var(--primary-color);
+    font-size: 18px;
+    line-height: 1.6;;
+}
