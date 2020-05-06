@@ -84,3 +84,41 @@ section {
     right: 70px;
     width: 50%;
 }
+
+/* section-stream */
+.section-stream {
+    min-height: 700px;
+    background-image:url(../images/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-stream h2 {
+    font-size: 35px;
+}
+.section-stream .play  {
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.section-stream .content-rellax {
+    position: absolute;
+    width: 50%;
+    top: 130px;
+    right: 70px;
+}
+.section-stream .content-rellax > div {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* grid section */
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    grid-gap: 30px;
+    text-align: center;
+}
