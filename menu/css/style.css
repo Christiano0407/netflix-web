@@ -108,7 +108,8 @@ section {
     top: 130px;
     right: 70px;
 }
-.section-stream .content-rellax > div {
+.section-stream .content-rellax > div,
+ .section-grid > div {
     background: rgba(255, 255, 255, 0.3);
     padding: 20px;
     margin-bottom: 20px;
@@ -118,7 +119,25 @@ section {
 /* grid section */
 .section-grid {
     display: grid;
-    grid-template-columns: repeat(3,fr);
+    grid-template-columns: repeat(3,1fr);
+   /*  grid-template-rows: repeat(3,1fr); */
     grid-gap: 30px;
     text-align: center;
+    margin-top: 20px;
+    background-image: url(../images/marv1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+ .section-grid i {
+    color: var(--secondary--color);
+} 
+.section-grid p {
+    color: var(--text-color);
+}
+.section-grid .dot {
+    font-size: 40px;
+     padding-left: 2px; 
+}
+
+/* footer section */
