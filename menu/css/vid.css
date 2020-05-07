@@ -87,5 +87,22 @@ h1 {
 }
 .btn:hover {
     transform: scale(0.98);
-    
+    cursor: pointer;
+}
+
+#about {
+    padding: 40px;
+    text-align: center;
+}
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
+#about h2 {
+    margin: 30px;
+    color: var(--primary-color);
+}
+.social a {
+    margin: 0 5px;
 }
