@@ -86,7 +86,7 @@ ul {
 .showcase {
     width: 100%;
     height: 400px;
-    background-image: url(../images/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg);
+    background-image: url(../images/x-5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,6 +97,7 @@ ul {
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .showcase h2, .showcase p {
@@ -150,4 +151,30 @@ ul {
 }
 .xbox p, .carbon p {
     margin: 10px 0 20px;
+}
+
+/* carbon */
+.carbon {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.carbon .content {
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
+/* follow */
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+    text-transform: uppercase;
+}
+.follow * {
+    margin-right: 10px;
 }
