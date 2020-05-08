@@ -86,7 +86,7 @@ ul {
 .showcase {
     width: 100%;
     height: 400px;
-    background-image: url(../images/matebook.png);
+    background-image: url(../images/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,4 +97,57 @@ ul {
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
+}
+
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+.showcase .btn {
+    margin-top: 20px;
+}
+
+/* home-cards */
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.home-cards img {
+    width: 100%;
+    margin-bottom: 5px;
+    background-position: center;
+    border-radius: 5px;
+}
+.home-cards h3 {
+    margin-bottom: 5px;
+}
+.home-cards a {
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.home-cards a:hover i {
+    margin-left: 10px;
+}
+/* xbox */
+.xbox {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.xbox .content {
+    width: 40%;
+    padding: 50px 0 0 30px;
+}
+.xbox p, .carbon p {
+    margin: 10px 0 20px;
 }
