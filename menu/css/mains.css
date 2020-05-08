@@ -81,3 +81,20 @@ ul {
     background: #f4f4f4;
     color: #333;
 }
+
+/* .showcase */
+.showcase {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/matebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
