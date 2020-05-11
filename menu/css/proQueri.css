@@ -73,3 +73,40 @@ padding: 0 2rem;
 .navbar a:hover {
     color: #555;
 }
+
+/* showcase */
+.section-a {
+    margin: 2rem 0;
+}
+.section-a .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    justify-content: center;
+}
+.section-a h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+.section-a p{
+    margin: 1rem 0;
+    margin-bottom: 25px;
+}
+
+.section-a .btn {
+    border: 1px solid #000;
+    border-radius: 35px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: #000;
+    color: #fff;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 15px;
+   cursor: pointer;
+}
+.section-a .btn:hover {
+    color: #000;
+    background: #fff;
+}
+/* largetext */
