@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: nocturne-serif, serif;
+font-weight: 500;
+font-style: norma;
+height: 100vh;
+ background-image: url(../images/city-lit-up-at-night-316902.jpg); 
+ background-repeat: no-repeat;
+background-size: cover;
+background-position: center; 
+/* background: #333 url(../images/city-lit-up-at-night-316902.jpg) no-repeat center cover; */
+color: #ccc;
+overflow: hidden;
+}
