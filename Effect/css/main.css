@@ -16,3 +16,28 @@ background-position: center;
 color: #ccc;
 overflow: hidden;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+h1, h2 {
+    font-weight: 200;
+    margin: 0.4rem;
+}
+h1 {
+    font-size: 4.5rem;
+}
+h2 {
+    font-size: 2rem;
+    color: #aaa;
+}
+
+/* cursor */
+
+.txt-type > .txt {
+    border-right: 2.2rem solid #777;
+}
