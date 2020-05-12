@@ -14,7 +14,7 @@ body {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 .slide {
     position: absolute;
@@ -46,6 +46,30 @@ body {
     opacity: 1;
     transform: translateX(600px);
     transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+}
+.buttons button#prev {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+.buttons button {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 15px;
+    border-radius: 50%;
+    outline: none;
+}
+.buttons button:hover {
+background-color: #fff;
+color: #333;
 }
 
 /* IMAGES */
