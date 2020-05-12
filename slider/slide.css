@@ -81,8 +81,32 @@ color: #333;
 }
 
 .slide:nth-child(2){
+    background-image:url(./image/aud3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+};
+.slide:nth-child(3){
+    background-image:url(./image/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.slide:nth-child(4){
+    background-image:url(./image/aud1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.slide:nth-child(5){
+    background-image:url(./image/aud4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.slide:nth-child(6){
     background-image:url(./image/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }

@@ -17,7 +17,22 @@ const nextSlide = () =>  {
         slides[0].classList.add(`current`)
     }
     setTimeout(() => current.classList.remove(`current`));
+};
+
+const prevSlide = () => {
+  const current = document.querySelector(`.current`)
+
+  current.classList.remove(`current`);
+
+  if(current.previousElementSibling){
+      current.previousElementSibling.classList.add(`current`);
+
+  }else {
+      current.previousElementSibling.classList.add(`current`);
+  }
+  setTimeout(() => current.classList.remove(`current`));
 }
+
 /* 
 EVENTS/CLICK */
 next.addEventListener(`click`, e => {
@@ -26,4 +41,18 @@ next.addEventListener(`click`, e => {
         clearInterval(SlideInterval);
         SlideInterval = setInterval(nextSlide, intervalTime);
     }
-})
+});
+
+prev.addEventListener(`click`, e => {
+    prevSlide();
+    if(auto) {
+        clearInterval(SlideInterval);
+        SlideInterval = SlideInterval(nextSlide, intervalTime);
+    }
+
+});
+
+/* auto-slide */
+if(auto){
+    SlideInterval = setInterval(nextSlide, intervalTime);
+}
