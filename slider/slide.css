@@ -79,3 +79,10 @@ color: #333;
     background-size: cover;
     background-position: center top;
 }
+
+.slide:nth-child(2){
+    background-image:url(./image/hPBwdealVjWGyGqO81P2ih3USHQ\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
