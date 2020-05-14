@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/aud4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+div:hover {
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);
+}
