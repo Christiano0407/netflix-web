@@ -7,3 +7,34 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: gitan-latin,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+/* font-family: gitan-latin,sans-serif;
+font-weight: 700;
+font-style: normal; */
+background-image: url(../images/aud4.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color:#fff;
+
+}
+.settings {
+height: 73px;
+float: left;
+background: url(https://s3.postimg.org/bqfooag4z/startific.jpg);
+background-repeat: no-repeat;
+width: 250px;
+margin: 0px;
+text-align: center;
+font-size: 20px;
+font-family: gitan-latin,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
